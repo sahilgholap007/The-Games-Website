@@ -135,7 +135,7 @@ button{
   }
 }
 
-h1{
+.card-img h1{
   color: #fff;
   font-size: 12px;
   width: 20vw;
@@ -150,4 +150,100 @@ h1{
 
 img{
   cursor: pointer;
+}
+
+.admin{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+}
+
+.admin-login{
+  width: 70vh;
+  height: 300px;
+  border-radius: 10px;
+  background-color: rgb(109, 109, 109);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.admin-login h1{
+  color: #fff;
+  font-size: 20px;
+}
+
+input{
+  height: 40px;
+  width: 80%;
+  border-radius: 5px;
+  border: none;
+  margin-top: 5vh;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+form a{
+  height: 40px;
+  width: 50%;
+  border-radius: 5px;
+  background-color: #000;
+  color: #fff;
+  margin-top: 5vh;
+  cursor: pointer;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+
+}
+
+.Game-form h1{
+  color: #fff;
+  font-size: 18px;
+}
+
+.game{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+}
+
+.Game-form{
+  width: 70vh;
+  height: 80%;
+  border-radius: 10px;
+  background-color: rgb(109, 109, 109);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+form button{
+  height: 40px;
+  width: 50%;
+  border-radius: 5px;
+  background-color: #000;
+  color: #fff;
+  margin-top: 5vh;
+  cursor: pointer;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
 }

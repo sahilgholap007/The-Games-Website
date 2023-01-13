@@ -2,15 +2,13 @@ import { initializeApp } from "firebase/app";
 import {getFirestore} from "firebase/firestore"
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDAvHBcQgwDFRcklpKAWS76OnAk3FazRyY",
-  authDomain: "retrogames-da321.firebaseapp.com",
-  projectId: "retrogames-da321",
-  storageBucket: "retrogames-da321.appspot.com",
-  messagingSenderId: "503725030412",
-  appId: "1:503725030412:web:ff90153133baeab9dcc229",
-  measurementId: "G-2QZPM905DM"
+  apiKey: "AIzaSyCUOzyMcjbzdaCqsGtsxkfd41eZRUuVP1A",
+  authDomain: "retrogamez007.firebaseapp.com",
+  projectId: "retrogamez007",
+  storageBucket: "retrogamez007.appspot.com",
+  messagingSenderId: "271097886210",
+  appId: "1:271097886210:web:ce54ba53a1d9c0e68e191b"
 };
-
 
 const app = initializeApp(firebaseConfig);
 const db = getFirestore(app); 

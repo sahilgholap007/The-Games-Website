@@ -1,36 +1,17 @@
 import React from 'react';
-import data from './data';
 import './App.css';
-import db from './firebaseConfig';
-import Navbar from './Components/Navbar';
-import Cards from './Components/Cards';
+import Client from "./Client/Client"
+import Admin from "./Admin/Admin"
+import Adminform from "./Admin/Adminform"
+import { Route, Routes } from "react-router-dom";
 
 function App() {
-
-  console.log(db);
-
-  const cards = data.map((item)=>{
-    return(
-      <Cards 
-      key={item.id} 
-      game={item.game} 
-      genre={item.genre} 
-      year={item.year} 
-      publisher={item.publisher} 
-      image={item.image} 
-      />
-    )
-  })
-
-
   return (
-    <>
-      <Navbar />
-      <div className='card'>
-        {cards}
-      </div>
-      
-    </>
+    <Routes>
+      <Route path="/" element={<Client/>} />
+      <Route path="/admin" element={<Admin/>} />
+      <Route path="/admin/Adminform" element={<Adminform/>} />
+    </Routes>
   );
 }
 
